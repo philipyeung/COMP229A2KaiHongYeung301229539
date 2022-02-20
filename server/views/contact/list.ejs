@@ -18,9 +18,12 @@
 <main class="container">
     <div class="row">
         <div class="offset-md-1 col-md-9">
-            <h1><%= title %></h1>
+            <header><h1><%= title %></h1></header>
+            <header>
             <a href="/contact-list/add" class="btn btn-primary" role="button">
             <i class="fas fa-plus-circle"></i> Add a Contact</a>
+        </header>
+        <section>
             <br>
             <table class="table table-bordered table-striped table-hover bg-secondary">
                 <!-- Header Row-->
@@ -52,6 +55,7 @@
                     </tr>
                 <% } %>
             </table>
+        </section>
         </div>
     </div>
   </main>
