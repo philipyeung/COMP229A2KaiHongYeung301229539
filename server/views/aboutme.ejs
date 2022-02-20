@@ -1,0 +1,74 @@
+
+<!--
+//*******************************************************************
+//  COMP229   Personal Portfolio Website
+//  File name       : app.js
+//  Student’s Name  : Kai Hong Yeung
+//  StudentID       : 301229539
+//  Date            : 2 Feb 2022
+//*******************************************************************
+-->
+
+<%- include partials/header_Morph.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+
+<!-- Main Content -->  
+<!--
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to <%= title %> page</h1>
+      
+    </div>
+  </main>
+-->
+
+<main class="p-5 mb-4 bg-secondary rounded-3">
+ 
+
+
+
+  <div class="container mt-3">
+    <header><h2><%= title %></h2></header>
+    <div class="mt-4 p-5 bg-primary text-white rounded  padding-1 border-radius-30 ">
+
+    <section>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <img src="/Assets/images/YKH_school_photo.jpg" alt="" width="200" height="200" class="d-inline-block align-text-top">
+          </div>
+          <div class="col">
+            <header><h1 class="name">Kai Hong Yeung</h1></header>
+            <section>
+            <p>Game Developer, Mobile Developer</p>               
+            <a href="mailto:kyeung39@my.centennialcollege.ca" class="link-dark"><i class="fas fa-envelope-square"></i> kyeung39@my.centennialcollege.ca</a>
+          </section>
+          </div>
+        </div>
+        <div class="row">
+            
+          <p>Working on Game GUI, Back-end, Game Programming, Game Design: C#, C++, Java, Objective-C, Unity Game Engine, Cocos2d, Cocos2dx, MySQL, Android Deploy, IOS Deploy</p>               
+          
+        </div>
+        <div class="row">
+            
+          <a href="/Assets/res/resume.pdf" class="link-dark"><i class="fas fa-address-card"></i> My Resume</a>
+          
+        </div>
+      </div>
+    </section>
+    </div>
+  </div>
+
+
+</main>
+
+  
+<%- include partials/bottom_nav.ejs %>  
+ 
+
+<%- include partials/footer.ejs %>
+
+

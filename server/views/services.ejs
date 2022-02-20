@@ -1,0 +1,124 @@
+
+
+<!--
+//*******************************************************************
+//  COMP229   Personal Portfolio Website
+//  File name       : app.js
+//  Student’s Name  : Kai Hong Yeung
+//  StudentID       : 301229539
+//  Date            : 2 Feb 2022
+//*******************************************************************
+-->
+
+
+<%- include partials/header_Sketchy.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+
+<!-- Main Content -->  
+<!--
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to <%= title %> page</h1>
+      
+    </div>
+  </main>
+-->
+
+
+<main class="p-5 mb-4 bg-primary rounded-3">
+  
+
+  <div class="container mt-3 text-white rounded">
+    <header><h2>Services</h2></header>
+    <section>
+    <!--a box for displaying the key contents-->
+    <div class="mt-4 p-5 bg-secondary text-white rounded">
+      <div class="container">
+        <!--service main image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/game_developer.jpg" alt="" width="400" height="400" class="img-thumbnail rounded ">
+          </div>
+          <!--service detail-->
+          <div class="col justify-content-start">            
+            <header><h1 class="display-6">As a Game Developer</h1></header>
+            <section>
+            <p class="fs-4">Game Programming, Game Design, GUI, Front & Back End Programming</p>
+            <p class="fs-4">Unity, Cocos2d, Cocos2dx, C++, C#, Objective-C, Java, MySQL, SQL Server</p>
+            <!--button to contact me-->
+            <a href="/contactme">
+              <button class="btn btn-success btn-lg" type="button">Contact Me</button>
+            </a>
+          </section>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <!--a box for displaying the key contents-->
+    <div class="mt-4 p-5 bg-secondary text-white rounded">
+      <div class="container">
+        <!--service main image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/mobile.jpg" alt="" width="400" height="400" class="img-thumbnail rounded ">
+          </div>
+          <!--service detail-->
+          <div class="col justify-content-start">
+            <header><h1 class="display-6">As a Mobile Developer</h1></header>
+            <section>
+            <p class="fs-4">Mobile Game Programming, Mobile Development, GUI, Front & Back End Programming</p>
+            <p class="fs-4">Unity, Cocos2d, Cocos2dx, C++, C#, Objective-C, MySQL</p>
+            <!--button to contact me-->
+            <a href="/contactme">
+              <button class="btn btn-success btn-lg" type="button">Contact Me</button>
+            </a>
+          </section>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <!--a box for displaying the key contents-->
+    <div class="mt-4 p-5 bg-secondary text-white rounded">
+      <div class="container">
+        <!--service main image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/full_front_back.jpg" alt="" width="400" height="400" class="img-thumbnail rounded ">
+          </div>
+          <!--service detail-->
+          <div class="col justify-content-start">
+            <header><h1 class="display-6">As a Full-Stack Developer</h1></header>
+            <section>
+            <p class="fs-4">Programming, GUI, Front & Back End Programming</p>
+            <p class="fs-4">C++, C#, Objective-C, Java, MySQL, SQL Server</p>
+            <!--button to contact me-->
+            <a href="/contactme">
+              <button class="btn btn-success btn-lg" type="button">Contact Me</button>
+            </a>
+            </section>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  </div>
+
+</main>
+
+  
+<%- include partials/bottom_nav.ejs %>  
+ 
+
+<%- include partials/footer.ejs %>
+
+

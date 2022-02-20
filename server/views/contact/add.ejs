@@ -1,0 +1,70 @@
+<!--
+//*******************************************************************
+//  COMP229   Personal Portfolio Website
+//  File name       : app.js
+//  Student’s Name  : Kai Hong Yeung
+//  StudentID       : 301229539
+//  Date            : 18 Feb 2022
+//*******************************************************************
+-->
+
+<%- include ../partials/header_Sketchy.ejs %>
+
+<%- include ../partials/main_nav.ejs %>
+
+<!-- Content for the Add page -->
+<div class="container">
+    <div class="row">
+        <div class="offset-md-3 col-md-6">
+            <h1><%= title %></h1>
+
+            <form class="form" method="POST">
+                <div class="form-group">
+                    <label for="nameTextField">Contact Name</label>
+                    <input type="text" class="form-control"
+                    id="nameTextField"
+                    placeholder="Enter Contact Name"
+                    name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactNumberTextField">Contact Number</label>
+                    <input type="text" class="form-control"
+                    id="contactNumberTextField"
+                    placeholder="Enter Contact Number"
+                    name="contactNumber" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="emailAddressTextField">Email Address</label>
+                    <input type="text" class="form-control"
+                    id="emailAddressTextField"
+                    placeholder="Enter Email Address"
+                    name="emailAddress" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="messageTextArea">Message</label>
+                    <textarea type="text" class="form-control"
+                    id="messageTextArea"
+                    placeholder="Enter Message"
+                    name="message" required></textarea>
+                </div>
+
+                <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-edit"></i> Submit</button>
+                
+                    <a href="/contact-list" class="btn btn-warning">
+                        <i class="fas fa-undo"></i> Cancel</a>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+
+<%- include ../partials/bottom_nav.ejs %>  
+
+<%- include ../partials/footer.ejs %>

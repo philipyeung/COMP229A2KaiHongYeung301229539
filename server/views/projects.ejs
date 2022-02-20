@@ -1,0 +1,143 @@
+
+
+<!--
+//*******************************************************************
+//  COMP229   Personal Portfolio Website
+//  File name       : app.js
+//  Student’s Name  : Kai Hong Yeung
+//  StudentID       : 301229539
+//  Date            : 2 Feb 2022
+//*******************************************************************
+-->
+
+
+<%- include partials/header_Sketchy.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+
+<!-- Main Content -->  
+<!--
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to <%= title %> page</h1>
+      
+    </div>
+  </main>
+-->
+
+<!--background-->
+<main class="p-5 mb-4 bg-primary rounded-3">
+  
+
+  <div class="container mt-3 text-white rounded">
+    <header><h2>My Projects</h2></header>
+<section>
+    <!--a box for displaying the key contents-->
+    <div class="mt-4 p-5 bg-secondary text-white rounded">
+      
+      <div class="container">
+        
+        <!--project main image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/project1/sooff_0_main.jpg" alt="" width="400" height="400" class="img-thumbnail rounded ">
+          </div>
+        </div>
+        <!--project sub image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/project1/sooff_1.jpg" alt="" width="200" height="200" class="img-thumbnail  rounded float-start d-inline-block">
+            <img src="/Assets/images/project1/sooff_2.jpg" alt="" width="200" height="200" class="img-thumbnail  rounded float-start d-inline-block">
+          </div>          
+        </div>
+        <!--project detail-->
+        <div class="justify-content-start">
+          <header><h1 class="display-6">Sooff web game</h1></header>
+          <section>
+          <p class="fs-4">Sooff online game is an online game with social platform that contains avatars, social communication, trading, collecting and mini games</p>
+          <p class="fs-4">mini game developer</p>
+          <!--button to project detail-->
+          <a href="https://www.youtube.com/watch?v=_XStaS8fvHg">
+            <button class="btn btn-success btn-lg" type="button">Know more</button>
+          </a>     
+        </section>       
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <!--a box for displaying the key contents-->
+    <div class="mt-4 p-5 bg-secondary text-white rounded">
+      <div class="container">
+        <!--project main image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/project2/hko_0_main.jpg" alt="" width="400" height="400" class="img-thumbnail rounded ">
+          </div>
+        </div>
+        <!--project sub image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/project2/hko_1.jpg" alt="" width="200" height="200" class="img-thumbnail  rounded float-start d-inline-block">
+            <img src="/Assets/images/project2/hko_2.jpg" alt="" width="200" height="200" class="img-thumbnail  rounded float-start d-inline-block">
+          </div>          
+        </div>
+      <!--project detail-->
+        <div class="justify-content-start">
+          <header><h1 class="display-6">Hello Kitty Online</h1></header>
+          <section>
+          <p class="fs-4">Hello Kitty Online is an online game with social platform that contains avatars, social communication, trading, collecting and mini games</p> 
+          <p class="fs-4">full-stack developer</p> 
+          <!--button to project detail-->
+          <a href="https://www.hellokittyonline.com/">
+            <button class="btn btn-success btn-lg" type="button">Know more</button>
+          </a>     
+        </section>       
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <!--a box for displaying the key contents-->
+    <div class="mt-4 p-5 bg-secondary text-white rounded">
+      <div class="container">
+        <!--project main image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/project3/ppf_0_main.webp" alt="" width="400" height="400" class="img-thumbnail rounded ">
+          </div>
+        </div>
+        <!--project sub image-->
+        <div class="row justify-content-start">
+          <div class="col">
+            <img src="/Assets/images/project3/ppf_screen-0.jpg" alt="" width="200" height="200" class="img-thumbnail  rounded float-start d-inline-block">
+            <img src="/Assets/images/project3/ppf_screen-1.jpg" alt="" width="200" height="200" class="img-thumbnail  rounded float-start d-inline-block">
+          </div>          
+        </div>
+        <!--project detail-->
+        <div class="justify-content-start">
+          <header><h1 class="display-6">Pretty Pet Farm</h1></header>
+          <section>
+          <p class="fs-4">Pretty Pet Farm is a mobile game built on IOS and Android</p> 
+          <p class="fs-4">IOS developer</p> 
+          <!--button to project detail-->
+          <a href="https://apkfab.com/pretty-pet-farm/com.ac.google.petFarm">
+            <button class="btn btn-success btn-lg" type="button">Know more</button>
+          </a>
+        </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+</main>
+
+  
+<%- include partials/bottom_nav.ejs %>  
+ 
+
+<%- include partials/footer.ejs %>
+
+
